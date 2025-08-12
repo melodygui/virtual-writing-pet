@@ -8,7 +8,7 @@ As you write, Mocha walks along a path toward a tasty bone — hitting progress 
 Perfect for writers, students, or anyone who wants a cute productivity boost.
 
 
-## Features
+## 🌟 Features
 
 - **Live Word Tracking** – Counts your words as you type.
 - **Customizable Daily Goal** – Set your own target word count.
