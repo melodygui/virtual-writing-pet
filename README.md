@@ -7,7 +7,19 @@ Mocha's Walk is a fun, interactive writing companion app where every word you ty
 As you write, Mocha walks along a path toward a tasty bone — hitting progress milestones along the way, wagging its tail, and celebrating when you meet your daily word goal.
 Perfect for writers, students, or anyone who wants a cute productivity boost.
 
----
+
+## Features
+
+- **Live Word Tracking** – Counts your words as you type.
+- **Customizable Daily Goal** – Set your own target word count.
+- **Pixel Dog Animation** – Mocha walks, bobs, and celebrates as you make progress.
+- **Level System** – Unlocks new moods at 25%, 50%, 75%, and 100% completion.
+- **Fun Feedback** – Motivational messages based on your progress.
+- **Visual Progress Bar** – Shows percentage completed toward your goal.
+- **Celebration Hearts** – Special effects when you reach your goal.
+
+
+
 ## How It Works
 
 1. Start typing in the writing area — Mocha wakes up and begins walking.
