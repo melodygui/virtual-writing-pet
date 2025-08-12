@@ -2,6 +2,7 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 # 🐕 Mocha's Walk – Pixel Writing Pet Companion
 **Live Demo:** [https://virtual-writing-pet.vercel.app/](https://virtual-writing-pet.vercel.app/) 
+
 Mocha's Walk is a fun, interactive writing companion app where every word you type helps your virtual pixel dog move closer to a goal!
 As you write, Mocha walks along a path toward a tasty bone — hitting progress milestones along the way, wagging its tail, and celebrating when you meet your daily word goal.
 Perfect for writers, students, or anyone who wants a cute productivity boost.
