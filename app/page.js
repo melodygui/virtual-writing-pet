@@ -1,6 +1,7 @@
 'use client'
 
 import React, { useState, useEffect } from 'react';
+import Image from 'next/image';
 
 const PixelWritingPet = () => {
   const [text, setText] = useState('');
@@ -55,7 +56,7 @@ const PixelWritingPet = () => {
     } else if (progress < 100) {
       setReachedGoal(false);
     }
-  }, [progress, reachedGoal]);
+  }, [progress, reachedGoal, currentLevel]);
 
   // Calculate dog position based on progress (10% to 85% of the path)
   const dogPosition = 10 + (progress * 0.75);
@@ -117,7 +118,7 @@ const PixelWritingPet = () => {
           <div className="bg-gradient-to-b from-gray-600 to-gray-800 border-2 border-black p-4 mb-5 text-center">
             <h1 className="text-yellow-400 text-2xl font-bold mb-2" 
                 style={{ fontFamily: "'Press Start 2P', monospace", textShadow: '2px 2px 0px #000' }}>
-              MOCHA'S WALK
+              MOCHA&apos;S WALK
             </h1>
             <p className="text-white text-xs" style={{ fontFamily: "'Press Start 2P', monospace", textShadow: '1px 1px 0px #000' }}>
               Writing Pet Companion
@@ -212,7 +213,7 @@ const PixelWritingPet = () => {
                 animation: isWalking ? 'bob 0.3s ease-in-out infinite' : 'none'
               }}>
                 {/* pixel dog from image */}
-                <img 
+                <Image 
                   src="/pets/pixel_corgi.png"
                   alt="Pixel Dog"
                   className="w-24 h-32"
@@ -284,7 +285,7 @@ const PixelWritingPet = () => {
           {/* Progress Bar */}
           <div className="bg-gray-900 border-4 border-black p-4 mb-5">
             <div className="flex justify-between mb-2">
-              <span className="text-white text-xs" style={{ fontFamily: "'Press Start 2P', monospace", fontSize: '10px' }}>MOCHA'S JOURNEY</span>
+              <span className="text-white text-xs" style={{ fontFamily: "'Press Start 2P', monospace", fontSize: '10px' }}>MOCHA&apos;S JOURNEY</span>
               <span className="text-white text-xs" style={{ fontFamily: "'Press Start 2P', monospace", fontSize: '10px' }}>
                 {progress >= 100 ? 'COMPLETE!' : `${Math.round(progress)}% TO BONE`}
               </span>
