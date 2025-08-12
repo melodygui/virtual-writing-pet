@@ -1,33 +1,18 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# 🐕 Mocha's Walk – Pixel Writing Pet Companion
+Mocha's Walk is a fun, interactive writing companion app where every word you type helps your virtual pixel dog move closer to a goal!
+As you write, Mocha walks along a path toward a tasty bone — hitting progress milestones along the way, wagging its tail, and celebrating when you meet your daily word goal.
+Perfect for writers, students, or anyone who wants a cute productivity boost.
 
-First, run the development server:
+---
+## How It Works
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. Start typing in the writing area — Mocha wakes up and begins walking.
+2. Each word you write moves Mocha forward along the path toward the bone.
+3. Reach milestones (25%, 50%, 75%) to see Mocha’s mood improve.
+4. Hit 100% and celebrate with hearts, sparkles, and a glowing bone.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
 ## Deploy on Vercel
 
